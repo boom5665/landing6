@@ -74,11 +74,11 @@
                         ผ่านธนาคารชั้นนำของไทย โอนไว จ่ายเต็ม มั่นใจ 100%
                     </div>
                     <div class="">
-                        <img class=" tana" src="http://127.0.0.1:8000/images/tana1.png" alt="Image">
-                        <img class="tana" src="http://127.0.0.1:8000/images/tana2.png" alt="Image">
-                        <img class="tana" src="http://127.0.0.1:8000/images/tana3.png" alt="Image">
-                        <img class="tana" src="http://127.0.0.1:8000/images/tana4.png" alt="Image">
-                        <img class="tana" src="http://127.0.0.1:8000/images/tana5.png" alt="Image">
+                        <img class="tana" src="{{ url('/images/tana1.png') }}" alt="Image">
+                        <img class="tana" src="{{ url('/images/tana2.png') }}" alt="Image">
+                        <img class="tana" src="{{ url('/images/tana3.png') }}" alt="Image">
+                        <img class="tana" src="{{ url('/images/tana4.png') }}" alt="Image">
+                        <img class="tana" src="{{ url('/images/tana5.png') }}" alt="Image">
                     </div>
                 </div>
 
