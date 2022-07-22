@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 @charset "UTF-8";
 body {
-  background-color: #811d1d;
+  background-color: white;
   color: white;
   font-family: "Kanit", sans-serif;
   font-style: normal;
@@ -438,7 +438,7 @@ footer {
 }
 .index .register .AMB-head-contact {
   text-transform: uppercase;
-  background: radial-gradient(50% 50% at 50% 50%, #000000 0%, #000000 100%);
+  background: linear-gradient(180deg, #000000 0%, #000000 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
@@ -459,7 +459,7 @@ footer {
   padding: 30px 145px 157px 145px;
 }
 .index .register .AMB-background {
-  background: linear-gradient(180deg, #b9b9b9 0%, #000000 100%);
+  background: linear-gradient(180deg, #c786a6 0%, #7b0841 100%);
   position: relative;
   box-sizing: border-box;
   color: #FFF;

@@ -1,5 +1,5 @@
 body {
-    background-color: #811d1d;
+    background-color: white;
     color: white;
     font-family: 'Kanit', sans-serif;
     font-style: normal;
@@ -31,7 +31,6 @@ footer {
     .middleover {
         position: relative;
         width: 50%;
-
         &:hover .image {
             opacity: 0.3;
         }
@@ -319,10 +318,10 @@ footer {
         border: none;
         color: white;
         padding: 8px 10px;
-        // &:hover {
-        //     display: inline-block;
-        //     border-bottom: 2px solid #fff;
-        // }
+            // &:hover {
+    //     display: inline-block;
+    //     border-bottom: 2px solid #fff;
+    // }
     }
 
     .under-line-lot {
@@ -390,12 +389,10 @@ footer {
         flex-direction: column;
         align-items: center;
         padding: 10px;
-
-        .discolum-font {
+        .discolum-font{
             font-size: 18px;
         }
     }
-
     .index-flex-top {
         display: flex;
         justify-content: space-between;
@@ -411,7 +408,6 @@ footer {
         margin: 20px 20px;
         height: 4%;
     }
-
     .b-style-lot {
         background: linear-gradient(180deg, #E1BD8A 0%, #BE8850 100%);
         border-radius: 41px;
@@ -421,30 +417,26 @@ footer {
         padding: 8px 10px;
         color: white;
     }
-
     .b-style-head {
-        background: white;
-        border-radius: 41px;
-        margin: 0px 5px;
-        border: none;
-        font-size: 20px;
-        padding: 8px 10px;
-        color: black;
-        width: 160px;
-        text-align: left;
+    background: white;
+    border-radius: 41px;
+    margin: 0px 5px;
+    border: none;
+    font-size: 20px;
+    padding: 8px 10px;
+    color: black;
+    width: 160px;
+    text-align: left;
     }
-
-    .img-icontop {
+    .img-icontop{
         position: relative;
         bottom: 3;
         padding-right: 5px;
     }
-
     .group-style-lot {
-        text-align: center;
-        padding: 30px 0px 40px 0px;
+    text-align: center;
+    padding: 30px 0px 40px 0px;
     }
-
     .index-flex-undertop {
         justify-content: flex-start;
         font-size: 20px;
@@ -461,15 +453,13 @@ footer {
             border: none;
             color: #000;
             padding: 0px 15px;
-
-            &:hover {
+            &:hover{
                 color: #BA8A59;
                 border-bottom: 3px solid #BA8A59;
                 padding-bottom: 5px;
             }
         }
     }
-
     .top-img {
         .fonthead {
             font-size: 40px;
@@ -509,11 +499,9 @@ footer {
             padding-top: 0px;
 
         }
-
-        .image-girl-zindex {
+        .image-girl-zindex{
             z-index: -1;
         }
-
         .bg-img-ban3 {
             background-image: url(/images/ban3.png?d3f79d8…);
             background-repeat: no-repeat;
@@ -523,26 +511,23 @@ footer {
             margin: auto;
             padding: 40px 0px 40px 0px;
         }
-
         .bg-img-ban4 {
-            background-image: url('../image/ban4.png');
+             background-image: url('../image/ban4.png');
             background-repeat: no-repeat;
             // background-attachment: fixed;
             background-size: cover;
             width: 100%;
             margin: auto;
         }
-
         .bg-img-ban5 {
             background-image: url('../image/ban5.png');
-            background-repeat: no-repeat;
-            // background-attachment: fixed;
-            background-size: cover;
-            width: 100%;
-            margin: auto;
-        }
-
-        .boximage-girl {
+           background-repeat: no-repeat;
+           // background-attachment: fixed;
+           background-size: cover;
+           width: 100%;
+           margin: auto;
+       }
+        .boximage-girl{
             width: 100%;
             margin: auto;
         }
@@ -551,9 +536,11 @@ footer {
 
 
     .register {
+
         .AMB-head-contact {
             text-transform: uppercase;
-            background: radial-gradient(50% 50% at 50% 50%, #000000 0%, #000000 100%);
+            background: linear-gradient(
+                180deg, #000000 0%, #000000 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             font-weight: bold;
@@ -563,7 +550,7 @@ footer {
         }
 
         .AMB-contact-title-gradient {
-            background: radial-gradient(90% 41% at 15% 58%, #d9b17d 0%, #d9b17d 100%);
+            background: radial-gradient(90% 41% at 15% 58%, #d9b17d  0%, #d9b17d  100%);
             text-transform: uppercase;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -578,7 +565,8 @@ footer {
         }
 
         .AMB-background {
-            background: linear-gradient(180deg, #b9b9b9 0%, #000000 100%);
+            background: linear-gradient(
+                180deg, #c786a6 0%, #7b0841 100%);
             position: relative;
             box-sizing: border-box;
             color: #FFF;
@@ -597,7 +585,8 @@ footer {
             z-index: -1;
             margin: -5px;
             border-radius: inherit;
-            background: linear-gradient(105.86deg, #000000 6.06%, #000000 35.32%, #000000 50.08%, #000000 59.91%, #000000 77.62%, #000000 97.04%);
+            background: linear-gradient(
+105.86deg, #000000 6.06%, #000000 35.32%, #000000 50.08%, #000000 59.91%, #000000 77.62%, #000000 97.04%);
         }
 
         .AMB-reward {
@@ -668,7 +657,6 @@ footer {
             color: #fff;
             line-height: 10px;
             vertical-align: top;
-
             &:hover {
                 color: #000;
             }
@@ -686,7 +674,6 @@ footer {
         ul.AMB-sidebar-contact>li {
             vertical-align: middle;
             padding: 10px 5px;
-
             &:hover {
                 list-style-image: url(../image/arrow-rigth-hover.png);
             }
@@ -723,3 +710,4 @@ footer {
 
     }
 }
+
